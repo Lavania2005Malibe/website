@@ -120,6 +120,31 @@ document.addEventListener("DOMContentLoaded", function() {
         sidebar.classList.toggle("active");
     });
 });
+// script.js
 
+document.addEventListener("DOMContentLoaded", function() {
+    var recommendationList = document.getElementById("recommendationList");
 
+    // Sample data for recommended songs
+    var recommendedSongs = [
+        "Song 1",
+        "Song 2",
+        "Song 3",
+        "Song 4",
+        "Song 5"
+    ];
 
+    // Display recommended songs
+    recommendedSongs.forEach(function(song) {
+        var recommendationItem = document.createElement("div");
+        recommendationItem.classList.add("recommendation-item");
+        recommendationItem.textContent = song;
+        recommendationList.appendChild(recommendationItem);
+
+        // Add click event listener to play the song (just for demonstration)
+        recommendationItem.addEventListener("click", function() {
+            alert("Now playing: " + song);
+            // You can add actual music playback functionality here
+        });
+    });
+});

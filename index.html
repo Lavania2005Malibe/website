@@ -9,12 +9,21 @@
 <body>
     <header>
       
-        <h1>My Music Website</h1>
+        <h1>MZIKI.COM</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutus.html">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">videos</a></li>
+                <li><a href="#">music</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">playlists</a></li>
+
+            
+                </li>
+        
+                <li><a href="#">Mailing lists</a></li>
+                <li><a href="#">more</a></li>
                 <li>
                     <form id="searchForm">
                         <input type="text" id="searchInput" placeholder="Search...">
@@ -34,9 +43,8 @@
                 <li><a href="#">New releases</a></li>
                 <li><a href="#">Tops charts</a></li>
                 <li><a href="#">Top Playlist</a></li>
-                <li><a href="#">New releases</a></li>
-                <li><a href="#">Tops charts</a></li>
-                <li><a href="#">Top Playlist</a></li>
+               
+                
             </ul>
         </div>
 
@@ -80,7 +88,34 @@
                 <input type="number" id="rating" placeholder="Rating (1-5)" min="1" max="5" required>
                 <button type="submit">Submit Review</button>
             </form>
-        </section>  
+        </section> 
+        
+        <h1>Music Streaming</h1>
+
+        <section class="playlist">
+            <h2>Playlist</h2>
+            <ul id="playlist">
+                <li><a href="audio/song1.mp3">Song 1</a></li>
+                <li><a href="audio/song2.mp3">Song 2</a></li>
+                <!-- Add more songs here -->
+            </ul>
+        </section>
+
+        <section class="player">
+            <h2>Player</h2>
+            <audio controls id="audioPlayer">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+            <h1>Music Discovery</h1>
+        
+        
+        <section class="recommendations">
+                <h2>Recommended Songs</h2>
+                <div id="recommendationList">
+                    <!-- Recommended songs will be displayed here -->
+                </div>
+        </section>
 
     </main>
     

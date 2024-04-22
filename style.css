@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #efcbcb;
+    background-color: #cbe7ef;
     color: hsl(0, 2%, 9%);
     padding: 20px;
 }
@@ -268,4 +268,24 @@ main {
     color: #333;
     text-decoration: none;
 }
+/* styles.css */
+main {
+    padding: 20px;
+}
 
+.recommendations {
+    text-align: center;
+}
+
+.recommendation-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recommendation-item:hover {
+    background-color: #f4f4f4;
+}
