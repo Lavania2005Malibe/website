@@ -289,3 +289,35 @@ main {
 .recommendation-item:hover {
     background-color: #f4f4f4;
 }
+
+
+  
+ 
+  
+  h1 {
+    margin: 0;
+  }
+  
+  #albums {
+    padding: 20px;
+  }
+  
+  .album {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .album img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+  }
+  
+  .album p {
+    margin: 5px 0;
+  }
+  
+  #music-player {
+    padding: 20px;
+  }
+  

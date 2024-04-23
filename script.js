@@ -148,3 +148,5 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+// You can add JavaScript functionality here, such as handling click events on albums, creating playlists, etc.
+
